@@ -10,6 +10,12 @@ public class Jugador extends Futbolista   {
 		this.dorsal = dorsal;
 	}
 	
+	public Jugador( ) {
+		super();
+		this.golesMarcados = 289;
+		this.dorsal = 7;
+	}
+	
 	public short getGolesMarcados() {
 		return golesMarcados;
 	}
@@ -26,10 +32,7 @@ public class Jugador extends Futbolista   {
 		this.dorsal = dorsal;
 	}
 
-	public Jugador() {
-		golesMarcados=298;
-		dorsal=7;
-	}
+
 	
 	public String toString() {
 		return "El futbolista "+this.getNombre()+" tiene "+this.getEdad()+ ", y juega de "+this.getPosicion()
