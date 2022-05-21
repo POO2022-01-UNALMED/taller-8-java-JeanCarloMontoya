@@ -43,8 +43,8 @@ public class Jugador extends Futbolista   {
 			return false;
 		}
 	}
-	public int compareTo(Jugador o) {
-		return(java.lang.Math.abs(o.getEdad()-this.getEdad()));
+	public int compareTo(Object o) {
+		return(java.lang.Math.abs(((Jugador)o).getEdad()-this.getEdad()));
 	}
 	
 	
