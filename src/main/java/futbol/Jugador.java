@@ -40,10 +40,10 @@ public class Jugador extends Futbolista   {
 	}
 	public boolean jugarConLasManos() {
 		if(this instanceof Futbolista) {
-			return true;
+			return false;
 		}
 		else {
-			return false;
+			return true;
 		}
 	}
 	public int compareTo(Object o) {
