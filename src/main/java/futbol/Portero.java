@@ -11,8 +11,8 @@ public class Portero extends Futbolista{
 	public boolean jugarConLasManos() {
 		return true;
 	}
-	public int compareTo(Futbolista o) {
-		return java.lang.Math.abs(((Portero)o).golesRecibidos-this.golesRecibidos);
+	public int compareTo(Portero o) {
+		return java.lang.Math.abs((o.golesRecibidos-this.golesRecibidos);
 		
 	}
 	public String toString() {
